@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-starlette-api"
+version = "0.0.1"
+description = ""
+authors = ["Cristiano-Rocha <sdxadev@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_starlette_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+starlette = "^0.20.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
